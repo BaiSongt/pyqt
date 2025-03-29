@@ -39,17 +39,17 @@ class Ui_Form(object):
 
         self.gridLayout.addWidget(self.label_2, 1, 0, 1, 1)
 
-        self.lineEdit = QLineEdit(self.gridLayoutWidget)
-        self.lineEdit.setObjectName(u"lineEdit")
-        self.lineEdit.setMaximumSize(QSize(500, 40))
+        self.input_lable_1 = QLineEdit(self.gridLayoutWidget)
+        self.input_lable_1.setObjectName(u"input_lable_1")
+        self.input_lable_1.setMaximumSize(QSize(500, 40))
 
-        self.gridLayout.addWidget(self.lineEdit, 3, 0, 1, 1)
+        self.gridLayout.addWidget(self.input_lable_1, 3, 0, 1, 1)
 
-        self.comboBox = QComboBox(self.gridLayoutWidget)
-        self.comboBox.setObjectName(u"comboBox")
-        self.comboBox.setMaximumSize(QSize(200, 40))
+        self.comboBox_unit_1 = QComboBox(self.gridLayoutWidget)
+        self.comboBox_unit_1.setObjectName(u"comboBox_unit_1")
+        self.comboBox_unit_1.setMaximumSize(QSize(200, 40))
 
-        self.gridLayout.addWidget(self.comboBox, 3, 1, 1, 1)
+        self.gridLayout.addWidget(self.comboBox_unit_1, 3, 1, 1, 1)
 
         self.label = QLabel(self.gridLayoutWidget)
         self.label.setObjectName(u"label")
@@ -60,26 +60,26 @@ class Ui_Form(object):
 
         self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
 
-        self.comboBox_2 = QComboBox(self.gridLayoutWidget)
-        self.comboBox_2.setObjectName(u"comboBox_2")
-        self.comboBox_2.setMaximumSize(QSize(200, 40))
+        self.comboBox_unit_2 = QComboBox(self.gridLayoutWidget)
+        self.comboBox_unit_2.setObjectName(u"comboBox_unit_2")
+        self.comboBox_unit_2.setMaximumSize(QSize(200, 40))
 
-        self.gridLayout.addWidget(self.comboBox_2, 4, 1, 1, 1)
+        self.gridLayout.addWidget(self.comboBox_unit_2, 4, 1, 1, 1)
 
-        self.lineEdit_2 = QLineEdit(self.gridLayoutWidget)
-        self.lineEdit_2.setObjectName(u"lineEdit_2")
-        self.lineEdit_2.setMaximumSize(QSize(500, 40))
+        self.input_lable_2 = QLineEdit(self.gridLayoutWidget)
+        self.input_lable_2.setObjectName(u"input_lable_2")
+        self.input_lable_2.setMaximumSize(QSize(500, 40))
 
-        self.gridLayout.addWidget(self.lineEdit_2, 4, 0, 1, 1)
+        self.gridLayout.addWidget(self.input_lable_2, 4, 0, 1, 1)
 
-        self.comboBox_3 = QComboBox(self.gridLayoutWidget)
-        self.comboBox_3.setObjectName(u"comboBox_3")
-        self.comboBox_3.setMaximumSize(QSize(500, 40))
+        self.comboBox_unit_type = QComboBox(self.gridLayoutWidget)
+        self.comboBox_unit_type.setObjectName(u"comboBox_unit_type")
+        self.comboBox_unit_type.setMaximumSize(QSize(500, 40))
         font2 = QFont()
         font2.setPointSize(15)
-        self.comboBox_3.setFont(font2)
+        self.comboBox_unit_type.setFont(font2)
 
-        self.gridLayout.addWidget(self.comboBox_3, 2, 0, 1, 1)
+        self.gridLayout.addWidget(self.comboBox_unit_type, 2, 0, 1, 2)
 
 
         self.retranslateUi(Form)
